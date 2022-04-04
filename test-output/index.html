@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-NapierHealthCareProject">
+              <span class="suite-name border-failed">NapierHealthCareProject</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-NapierHealthCareProject">
+                    <span>C:\Users\venkata\Downloads\NapierHeathCareProject\testng2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-NapierHealthCareProject">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-NapierHealthCareProject">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-NapierHealthCareProject">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-NapierHealthCareProject">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-NapierHealthCareProject">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-NapierHealthCareProject">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-NapierHealthCareProject" class="hide-methods failed suite-NapierHealthCareProject"> (hide)</a> <!-- hide-methods failed suite-NapierHealthCareProject -->
+                      <a href="#" panel-name="suite-NapierHealthCareProject" class="show-methods failed suite-NapierHealthCareProject"> (show)</a> <!-- show-methods failed suite-NapierHealthCareProject -->
+                    </span>
+                    <div class="method-list-content failed suite-NapierHealthCareProject">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NapierHealthCareProject" title="com.HC.testCases.TC_IncidentReportPatientComplaintDetails" hash-for-method="TC_IncidentReportPatientComplaintDetails">TC_IncidentReportPatientComplaintDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-NapierHealthCareProject -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-NapierHealthCareProject" class="hide-methods passed suite-NapierHealthCareProject"> (hide)</a> <!-- hide-methods passed suite-NapierHealthCareProject -->
+                      <a href="#" panel-name="suite-NapierHealthCareProject" class="show-methods passed suite-NapierHealthCareProject"> (show)</a> <!-- show-methods passed suite-NapierHealthCareProject -->
+                    </span>
+                    <div class="method-list-content passed suite-NapierHealthCareProject">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NapierHealthCareProject" title="com.HC.testCases.TC_IncidentDashboardDeleteIncident" hash-for-method="TC_IncidentDashboardDeleteIncident">TC_IncidentDashboardDeleteIncident</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NapierHealthCareProject" title="com.HC.testCases.TC_IncidentReport" hash-for-method="TC_IncidentReport">TC_IncidentReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NapierHealthCareProject" title="com.HC.testCases.TC_IncidentReportAllDetails" hash-for-method="TC_IncidentReportAllDetails">TC_IncidentReportAllDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NapierHealthCareProject" title="com.HC.testCases.TC_IncidentReportAnonymouslyAllDetails" hash-for-method="TC_IncidentReportAnonymouslyAllDetails">TC_IncidentReportAnonymouslyAllDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NapierHealthCareProject" title="com.HC.testCases.TC_IncidentReportSaveSubmit" hash-for-method="TC_IncidentReportSaveSubmit">TC_IncidentReportSaveSubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NapierHealthCareProject" title="com.HC.testCases.TC_QualityDashboardAssign" hash-for-method="TC_QualityDashboardAssign">TC_QualityDashboardAssign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NapierHealthCareProject" title="com.HC.testCases.TC_QualityDashboardReAssign" hash-for-method="TC_QualityDashboardReAssign">TC_QualityDashboardReAssign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NapierHealthCareProject" title="com.HC.testCases.TC_LoginDDT_002" hash-for-method="loginTest(Ganesh, User@2)">loginTest(Ganesh, User@2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NapierHealthCareProject" title="com.HC.testCases.TC_LoginDDT_002" hash-for-method="loginTest(Ganesh, User@1)">loginTest(Ganesh, User@1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-NapierHealthCareProject -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-NapierHealthCareProject" class="panel NapierHealthCareProject">
+          <div class="suite-NapierHealthCareProject-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.HC.testCases.TC_IncidentReportPatientComplaintDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IncidentReportPatientComplaintDetails">
+                  </a> <!-- TC_IncidentReportPatientComplaintDetails -->
+                  <span class="method-name">TC_IncidentReportPatientComplaintDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Yes&apos;)]&quot;}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SANDEEP&apos;, ip: &apos;192.168.43.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\venkata\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54007}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 29fac964a6981b65ffc704d741ec735b
+*** Element info: {Using=xpath, value=//button[contains(text(),&apos;Yes&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.HC.pageObjects.LoginPage.popsubmit(LoginPage.java:133)
+	at com.HC.testCases.TC_IncidentReportPatientComplaintDetails.TC_IncidentReportPatientComplaintDetails(TC_IncidentReportPatientComplaintDetails.java:165)
+	at com.HC.pageObjects.DriverScript.execute_TestCase(DriverScript.java:49)
+	at com.HC.pageObjects.DriverScript.main(DriverScript.java:19)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NapierHealthCareProject-class-failed -->
+          <div class="suite-NapierHealthCareProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.HC.testCases.TC_QualityDashboardAssign</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_QualityDashboardAssign">
+                  </a> <!-- TC_QualityDashboardAssign -->
+                  <span class="method-name">TC_QualityDashboardAssign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NapierHealthCareProject-class-passed -->
+          <div class="suite-NapierHealthCareProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.HC.testCases.TC_LoginDDT_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(Ganesh, User@2)">
+                  </a> <!-- loginTest(Ganesh, User@2) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(Ganesh, User@2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(Ganesh, User@1)">
+                  </a> <!-- loginTest(Ganesh, User@1) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(Ganesh, User@1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NapierHealthCareProject-class-passed -->
+          <div class="suite-NapierHealthCareProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.HC.testCases.TC_IncidentReportAnonymouslyAllDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IncidentReportAnonymouslyAllDetails">
+                  </a> <!-- TC_IncidentReportAnonymouslyAllDetails -->
+                  <span class="method-name">TC_IncidentReportAnonymouslyAllDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NapierHealthCareProject-class-passed -->
+          <div class="suite-NapierHealthCareProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.HC.testCases.TC_IncidentDashboardDeleteIncident</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IncidentDashboardDeleteIncident">
+                  </a> <!-- TC_IncidentDashboardDeleteIncident -->
+                  <span class="method-name">TC_IncidentDashboardDeleteIncident</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NapierHealthCareProject-class-passed -->
+          <div class="suite-NapierHealthCareProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.HC.testCases.TC_IncidentReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IncidentReport">
+                  </a> <!-- TC_IncidentReport -->
+                  <span class="method-name">TC_IncidentReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NapierHealthCareProject-class-passed -->
+          <div class="suite-NapierHealthCareProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.HC.testCases.TC_IncidentReportAllDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IncidentReportAllDetails">
+                  </a> <!-- TC_IncidentReportAllDetails -->
+                  <span class="method-name">TC_IncidentReportAllDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NapierHealthCareProject-class-passed -->
+          <div class="suite-NapierHealthCareProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.HC.testCases.TC_IncidentReportSaveSubmit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_IncidentReportSaveSubmit">
+                  </a> <!-- TC_IncidentReportSaveSubmit -->
+                  <span class="method-name">TC_IncidentReportSaveSubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NapierHealthCareProject-class-passed -->
+          <div class="suite-NapierHealthCareProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.HC.testCases.TC_QualityDashboardReAssign</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_QualityDashboardReAssign">
+                  </a> <!-- TC_QualityDashboardReAssign -->
+                  <span class="method-name">TC_QualityDashboardReAssign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NapierHealthCareProject-class-passed -->
+        </div> <!-- panel NapierHealthCareProject -->
+        <div panel-name="test-xml-NapierHealthCareProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\venkata\Downloads\NapierHeathCareProject\testng2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;NapierHealthCareProject&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.HC.utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HealthCare Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.HC.testCases.TC_IncidentReport&quot;/&gt;
+      &lt;class name=&quot;com.HC.testCases.TC_LoginDDT_002&quot;/&gt;
+      &lt;class name=&quot;com.HC.testCases.TC_IncidentReportAllDetails&quot;/&gt;
+      &lt;class name=&quot;com.HC.testCases.TC_IncidentReportSaveSubmit&quot;/&gt;
+      &lt;class name=&quot;com.HC.testCases.TC_IncidentReportAnonymouslyAllDetails&quot;/&gt;
+      &lt;class name=&quot;com.HC.testCases.TC_IncidentReportPatientComplaintDetails&quot;/&gt;
+      &lt;class name=&quot;com.HC.testCases.TC_IncidentDashboardDeleteIncident&quot;/&gt;
+      &lt;class name=&quot;com.HC.testCases.TC_QualityDashboardAssign&quot;/&gt;
+      &lt;class name=&quot;com.HC.testCases.TC_QualityDashboardReAssign&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HealthCare Test --&gt;
+&lt;/suite&gt; &lt;!-- NapierHealthCareProject --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-NapierHealthCareProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for NapierHealthCareProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HealthCare Test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-NapierHealthCareProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for NapierHealthCareProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-NapierHealthCareProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for NapierHealthCareProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_NapierHealthCareProject');
+function tableData_NapierHealthCareProject() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_IncidentReportPatientComplaintDetails')
+data.setCell(0, 2, 'com.HC.testCases.TC_IncidentReportPatientComplaintDetails')
+data.setCell(0, 3, 66669);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_IncidentReportAnonymouslyAllDetails')
+data.setCell(1, 2, 'com.HC.testCases.TC_IncidentReportAnonymouslyAllDetails')
+data.setCell(1, 3, 60328);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_IncidentReportAllDetails')
+data.setCell(2, 2, 'com.HC.testCases.TC_IncidentReportAllDetails')
+data.setCell(2, 3, 58795);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_IncidentReportSaveSubmit')
+data.setCell(3, 2, 'com.HC.testCases.TC_IncidentReportSaveSubmit')
+data.setCell(3, 3, 45539);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_IncidentReport')
+data.setCell(4, 2, 'com.HC.testCases.TC_IncidentReport')
+data.setCell(4, 3, 35953);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_IncidentDashboardDeleteIncident')
+data.setCell(5, 2, 'com.HC.testCases.TC_IncidentDashboardDeleteIncident')
+data.setCell(5, 3, 35546);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_QualityDashboardAssign')
+data.setCell(6, 2, 'com.HC.testCases.TC_QualityDashboardAssign')
+data.setCell(6, 3, 27935);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_QualityDashboardReAssign')
+data.setCell(7, 2, 'com.HC.testCases.TC_QualityDashboardReAssign')
+data.setCell(7, 3, 27495);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginTest')
+data.setCell(8, 2, 'com.HC.testCases.TC_LoginDDT_002')
+data.setCell(8, 3, 25812);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginTest')
+data.setCell(9, 2, 'com.HC.testCases.TC_LoginDDT_002')
+data.setCell(9, 3, 15498);
+window.suiteTableData['NapierHealthCareProject']= { tableData: data, tableDiv: 'times-div-NapierHealthCareProject'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-NapierHealthCareProject">
+              </div> <!-- times-div-NapierHealthCareProject -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-NapierHealthCareProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for NapierHealthCareProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-NapierHealthCareProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-NapierHealthCareProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HC.testCases.TC_IncidentReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_IncidentReport</span>
+                <span class="method-start">7625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43600 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HC.testCases.TC_LoginDDT_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">43600 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(Ganesh, User@1)</span>
+                <span class="method-start">51158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(Ganesh, User@2)</span>
+                <span class="method-start">66656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92468 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HC.testCases.TC_IncidentReportAllDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">92469 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_IncidentReportAllDetails</span>
+                <span class="method-start">103433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">162228 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HC.testCases.TC_IncidentReportSaveSubmit</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">162228 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_IncidentReportSaveSubmit</span>
+                <span class="method-start">170240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">215783 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HC.testCases.TC_IncidentReportAnonymouslyAllDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">215783 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_IncidentReportAnonymouslyAllDetails</span>
+                <span class="method-start">224281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">284624 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HC.testCases.TC_IncidentReportPatientComplaintDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">284624 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_IncidentReportPatientComplaintDetails</span>
+                <span class="method-start">293209 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">359898 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HC.testCases.TC_IncidentDashboardDeleteIncident</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">359899 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_IncidentDashboardDeleteIncident</span>
+                <span class="method-start">366699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">402245 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HC.testCases.TC_QualityDashboardAssign</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">402245 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_QualityDashboardAssign</span>
+                <span class="method-start">409078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">437013 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HC.testCases.TC_QualityDashboardReAssign</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">437013 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_QualityDashboardReAssign</span>
+                <span class="method-start">444277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">471772 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NapierHealthCareProject">
+<listeners><listener class-name="com.HC.utilities.Reporting" /></listeners>
+<test name="HealthCare Test">
+<parameter name="browser" value="chrome" />
+<classes>
+<class name="com.HC.testCases.TC_IncidentReport" />
+<class name="com.HC.testCases.TC_LoginDDT_002" />
+<class name="com.HC.testCases.TC_IncidentReportAllDetails" />
+<class name="com.HC.testCases.TC_IncidentReportSaveSubmit" />
+<class name="com.HC.testCases.TC_IncidentReportAnonymouslyAllDetails" />
+<class name="com.HC.testCases.TC_IncidentReportPatientComplaintDetails" />
+<class name="com.HC.testCases.TC_IncidentDashboardDeleteIncident" />
+<class name="com.HC.testCases.TC_QualityDashboardAssign" />
+<class name="com.HC.testCases.TC_QualityDashboardReAssign" />
+</classes>
+</test>
+</suite>
